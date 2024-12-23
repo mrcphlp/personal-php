@@ -49,8 +49,8 @@ if(isset($_POST['submit'])) {
             <h3>Login Now</h3>
             <?php 
             if(isset($error)) {
-                foreach($error as $err) {
-                    echo '<span class="error-msg">'.$err.'</span>';
+                foreach($error as $error) {
+                    echo '<span class="error-msg">'.$error.'</span>';
             }
         }
             ?>
